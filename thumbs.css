@@ -1,0 +1,206 @@
+html, body
+{
+	background-color: #F0F0F0;
+	font: 10px arial, helvetica, sans-serif;
+	color: gray;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+h1 {
+	color: white;
+	font-size: 14pt;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+}
+h2 {
+	margin: 4px auto;
+}
+h3 {
+	color: white; margin-bottom: 0px;
+}
+
+div#main {
+	margin-left:auto;
+	margin-right:auto;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+div#head {
+	width: 99.8%;
+	background-color: darkgray;
+	border: thin outset darkgray;
+	margin: 0px auto 10px auto;
+	/*border-top: 6px dotted darkred;*/
+	margin-left:auto;
+	margin-right:auto;
+	color: white;
+}
+
+div#content {
+	padding-top: 10px;
+	margin-top: 10px;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	/*border: thin outset darkred;*/
+}
+
+div#footer {
+	width: 100%;
+	margin-top: 20px;
+	padding: 4px 10px;
+	/*background-color: lightgray;*/
+	/*border: thin outset darkgray;*/
+}
+
+a:link  {color: #66CCFF; text-decoration: none;}
+a:visited {color: #66CCFF;text-decoration: none;}
+a:hover {text-decoration: none;color: SeaShell;}
+
+
+img {margin-bottom: 10px; margin-right:1px; cursor: pointer}
+img.bordered {/*border: thin outset gray;*/
+	/* shadow */
+	box-shadow: 2px 2px 5px black;
+	-moz-box-shadow: 2px 2px 5px black;
+	-webkit-box-shadow: 2px 2px 5px black;
+}
+
+
+#myTable {
+	display: table;
+	/*width: 50%;*/
+	border: thin outset darkgray;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* shadow */
+	box-shadow: 2px 2px 5px black;
+	-moz-box-shadow: 2px 2px 5px black;
+	-webkit-box-shadow: 2px 2px 5px black;
+
+}
+#myTable td {/*border: thin inset darkgray;*/}
+
+td.left {
+	text-align: left;
+}
+td.right {
+	text-align: right;
+}
+
+#topTable{
+	/*width: 50%;*/
+	/*border: thin outset darkgray;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4px;
+}
+#topTable.right {text-align: right;}
+
+#topTable img {
+	margin: 0px;
+	/*width: 35px;*/
+	height:30px; width: 26px;
+	cursor: pointer;
+	border: 0px;
+	/*border: 2px outset darkgray;*/
+	/* shadow */
+	box-shadow: 2px 2px 5px black;
+	-moz-box-shadow: 2px 2px 5px black;
+	-webkit-box-shadow: 2px 2px 5px black;
+
+}
+#topTable img.blank {
+	width: 20px;
+	border: 0px;
+	/* shadow */
+	box-shadow: 0px 0px 0px black;
+	-moz-box-shadow: 0px 0px 0px black;
+	-webkit-box-shadow: 0px 0px 0px black;
+}
+
+#topTable td {padding: 0px; margin: 0px;}
+#infobutton {position: absolute;}
+#infobutton img {margin: 0pxs; width: 40px; height: 40px;}
+
+#tThumbs {
+	width: 200px;
+	display: none;
+}
+
+input.bordered {border: thin inset darkgray;}
+
+div.info {
+	font-size: 12px;
+	overflow:hidden;
+	height: 0px;
+	color: darkslategray;
+	margin: 0px auto 0px auto;
+	width: 100%;
+}
+div.info p {
+	margin:0px;
+	padding: 4px 4px;
+	background-color: #FAF8DC;
+	border: thin outset darkgray;
+}
+div.info a:link  {color: darkred; text-decoration: none;}
+div.info a:visited {color: darkred; text-decoration: none;}
+div.info a:hover {color: darkred; text-decoration: underline; }
+
+#info {font-size: 12px;}
+
+hr.short {width: 40%}
+
+/* slider */
+#sz, #al {text-align: right}
+
+div.slider {
+	width: 200px;
+	height: 4px;
+	background: #eee;
+	border: thin inset darkgray;
+}
+div.slider div.knob {
+	background: darkred;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	border: 3px outset gray;
+
+	/* rounded corners */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	/* shadow */
+	box-shadow: 2px 2px 5px black;
+	-moz-box-shadow: 2px 2px 5px black;
+	-webkit-box-shadow: 2px 2px 5px black;
+	margin-top: -6px;
+}
+div#fontSize {
+	height: 50px;
+}
+
+div.advanced {
+	width: 400px;
+	margin: 5px 0;
+	background: url(images/slider.png) 0 center repeat-x;
+}
+div.advanced div.knob {
+	background: no-repeat center center;
+	cursor: pointer;
+}
+div#red div.knob {
+	background-image: url(images/red.png);
+}
+div#green div.knob {
+	background-image: url(images/green.png);
+}
+div#blue div.knob {
+	background-image: url(images/blue.png);
+}
